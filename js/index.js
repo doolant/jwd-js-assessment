@@ -28,6 +28,26 @@ window.addEventListener('DOMContentLoaded', () => {
   // quizArray QUESTIONS & ANSWERS
   // q = QUESTION, o = OPTIONS, a = CORRECT ANSWER
   // Basic ideas from https://code-boxx.com/simple-javascript-quiz/
+ 
+ //**************************************************************** 
+ // Attempted to use a loop function which checked user input, then shows alert of score (unfinished)
+ //****************************************************************
+ // const correctAnswers = ['1', '3', '1'];
+
+  // let score = 0;
+  // const userAnswers = 
+
+  // for(var i=0; i < quizArray.length; i++){
+  //   if(userAnswers === correctAnswers[index]){
+  //     userAnswers++;
+  //   } else {
+  //     userAnswers ==;
+  //   }
+  // }
+
+  // alert(`You got ${score} out of ${quizArray.length}`);
+  //****************************************************************
+ 
   const quizArray = [
     {
       q: 'Which is the third planet from the sun?',
@@ -45,6 +65,23 @@ window.addEventListener('DOMContentLoaded', () => {
       a: 1,
     },
   ];
+
+
+  //added questions into quizArray using .push
+  
+const q4 = {
+  q: 'How many continents are there on Earth',
+  o: ['4', '5', '6', '7'],
+  a: 3,
+};
+const q5= {
+  q: 'What is the largest desert in the world',
+  o: ['Arabian', 'Sahara', 'Artic', 'Antarctic desert'],
+  a: 3,
+};
+
+quizArray.push(q4, q5);
+
 
   // function to Display the quiz questions and answers from the object
   const displayQuiz = () => {
