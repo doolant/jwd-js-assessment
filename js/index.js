@@ -32,20 +32,20 @@ window.addEventListener('DOMContentLoaded', () => {
  //**************************************************************** 
  // Attempted to use a loop function which checked user input, then shows alert of score (unfinished)
  //****************************************************************
- // const correctAnswers = ['1', '3', '1'];
+//  const correctAnswers = ['1', '3', '1'];
 
-  // let score = 0;
-  // const userAnswers = 
+//   let score = 0;
+//   const userAnswers = 
 
-  // for(var i=0; i < quizArray.length; i++){
-  //   if(userAnswers === correctAnswers[index]){
-  //     userAnswers++;
-  //   } else {
-  //     userAnswers ==;
-  //   }
-  // }
+//   for(var i=0; i < quizArray.length; i++){
+//     if(userAnswers === correctAnswers[index]){
+//       userAnswers++;
+//     } else {
+//       userAnswers ==;
+//     }
+//   }
 
-  // alert(`You got ${score} out of ${quizArray.length}`);
+//   alert(`You got ${score} out of ${quizArray.length}`);
   //****************************************************************
  
   const quizArray = [
